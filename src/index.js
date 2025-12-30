@@ -6,11 +6,6 @@ import store from "./store/store";
 import { Provider } from "react-redux";
 import * as serviceWorker from "./serviceWorker";
 
-if (process.env.NODE_ENV === "development") {
-  const axe = require("react-axe");
-  axe(React, ReactDOM, 1000);
-}
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
