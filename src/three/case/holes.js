@@ -56,7 +56,7 @@ const getPathArrows = (sx, sy, gutter) => {
   ]);
 };
 
-export default (layoutName, layoutJson, bezel) => {
+const holes = (layoutName, layoutJson, bezel) => {
   let holes = [];
   let gutter = 0.05;
   let w = layoutJson.width;
@@ -166,3 +166,5 @@ export default (layoutName, layoutJson, bezel) => {
   }
   return holes;
 };
+
+export default holes;

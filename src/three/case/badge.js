@@ -3,7 +3,7 @@ import { TextureLoader } from "three/src/loaders/TextureLoader.js";
 import roughnessMapPath from "../../assets/dist/lightgold_roughness-512.png";
 import albedoMapPath from "../../assets/dist/lightgold_albedo-512.png";
 
-export default (w, cm) => {
+const badge = (w, cm) => {
   let cornerRadius = 0.02;
   let bevel = 0.04;
   let height = 0.2;
@@ -76,3 +76,5 @@ export default (w, cm) => {
   mesh.position.set(0, 0.15, 0);
   return mesh;
 };
+
+export default badge;

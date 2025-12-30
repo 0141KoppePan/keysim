@@ -5,7 +5,7 @@ import QuickActions from "../components/quickActions/QuickActions";
 
 export default function Home() {
   const rootEl = useRef(null);
-  const [showSidebar, setShowSidebar] = useState(true);
+  const [showSidebar] = useState(true);
 
   useEffect(() => {
     threeApp(rootEl.current);

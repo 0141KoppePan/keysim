@@ -5,7 +5,7 @@ import * as webfont from "webfontloader";
 
 const SCREEN_SCALE = 50;
 
-export default (element) => {
+const threeApp = (element) => {
   //ensure fonts loaded for canvas textures
   webfont.load({
     custom: {
@@ -33,3 +33,5 @@ export default (element) => {
     },
   });
 };
+
+export default threeApp;

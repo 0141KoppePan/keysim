@@ -2,7 +2,7 @@ import * as THREE from "three";
 import store from "../../store/store";
 import holes from "./holes";
 
-export default (layout, color) => {
+const case_1 = (layout, color) => {
   color = color || "#cccccc";
   let cornerRadius = 0.5;
   let bevel = 0.05;
@@ -63,3 +63,5 @@ export default (layout, color) => {
 
   return mesh;
 };
+
+export default case_1;
