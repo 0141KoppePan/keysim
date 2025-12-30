@@ -5,25 +5,25 @@
     "testing": false,
     "mode": "sidebar",
     "sceneAutoColor": true,
-    "sceneColor": "#cccccc",
+    "sceneColor": "#9B9284",
     "glowColor": "#ffffff",
     "highContrast": false,
     "paintWithKeys": false
   },
   "case": {
     "autoColor": true,
-    "primaryColor": "#eeeeee",
+    "primaryColor": "#171718",
     "colorSecondary": "#eeeeee",
     "style": "CASE_2",
     "bezel": 1,
-    "layout": "60iso",
+    "layout": "60jp",
     "profile": "high",
-    "material": "brushed"
+    "material": "matte"
   },
   "keys": {
     "visible": true,
     "profile": "mx",
-    "legendPrimaryStyle": "cherry",
+    "legendPrimaryStyle": "cherry_jp",
     "legendSecondaryStyle": "",
     "activeBackground": "#51cf59",
     "activeColor": "#ffffff"

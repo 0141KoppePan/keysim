@@ -1,9 +1,7 @@
-import cherry from "./cherry.json";
-import sa from "./sa.json";
+import cherry_jp from "./cherry_jp.json";
 
 const LEGENDS = {
-  cherry: cherry,
-  sa: sa,
+  cherry_jp: cherry_jp,
 };
 
 export default LEGENDS;
